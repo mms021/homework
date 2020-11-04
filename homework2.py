@@ -37,7 +37,7 @@ my_list = [7, 5, 3, 3, 2]
 my_list2 = []
 b = 8
 for i in range(len(my_list)):
-    print(my_list[i] ,b, i)
+    #print(my_list[i] ,b, i)
     if my_list[i] > b :
         my_list2.append(my_list[i])
     elif my_list[i] < b :
